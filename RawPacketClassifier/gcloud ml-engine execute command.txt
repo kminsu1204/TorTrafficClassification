@@ -1,0 +1,1 @@
+gcloud ml-engine jobs submit training sample20000_lr00003_epo100_bat100 --job-dir gs://crypto-airlock-199321-ml/RawPacketClassifier/output/sample20000_lr00003_epo100_bat100 --runtime-version 1.4 --module-name train.ExperimentTask --package-path train --region us-central1 --config config.yaml
