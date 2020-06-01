@@ -10,6 +10,8 @@ https://ieeexplore.ieee.org/document/8569113/
 ## Get Started
 Tor/Non-Tor Dataset is available at [UNB-CIC](https://www.unb.ca/cic/).
 
+This research uses 1D-CNN to classify the Tor/Non-Tor traffic which is anonymous data stream and categorize the specific data stream such as Video, Audio, Browsing, etc. on the raw paket header of traffic data.
+
 ## Data Parser
 The initial dataset is given in PCAP format that can be efficiently read in Wireshark software.
 
